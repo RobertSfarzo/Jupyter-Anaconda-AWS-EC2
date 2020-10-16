@@ -14,7 +14,7 @@ This script could use many improvements, but I needed it fast, it works, and it'
 - install python modules for mapyleaflet
 - creates a service 'Jupyter' that runs the server. It starts automatically on re/boots. If you stop juptyer server, then you can restart from a console like AWS CLI or SSH; the service can but is not set to restart. You'll see the service file sitting in the home directory (cuz) jupyter.sh
 - runs the Juptyer server from the \lab directory
-- again, these are self-signed certificates of not too much authority.
+- again, these are self-signed certificates of not too much authority
 
 ## 🚀Launch the EC2
 1. 🛠️Launch an EC2
