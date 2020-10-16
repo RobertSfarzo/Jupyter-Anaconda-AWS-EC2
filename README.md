@@ -28,4 +28,4 @@ This script could use many improvements, but I needed it fast, it works, and it'
 ## Notes
 - It you wanted to run Anaconda Navigator, then install X on your EC2 and then use VNC or RDP to connect remotely, and be mindful that your machine is now running more services and your connection will be working harder.
 - For full AWS accounts, SSL can be improved CA's including an AWS ACM public certificate and Route 53 hosted zone.
-- An Elastic IP on the EC2 is useful for allowing an inbound rule such as an RDS instance.
+- An Elastic IP on the EC2 is useful for allowing an inbound rule such as an RDS instance's VPC.
