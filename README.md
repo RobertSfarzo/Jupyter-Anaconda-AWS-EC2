@@ -26,6 +26,5 @@ This script could use many improvements, but I needed it fast, it works, and it'
 3. 🚀Log in using the EC2 public ipv4 (like https://243.33.2.1:8888 ) not the url ( like my-ec2-amazon.whatever.com  to log in, use https, port 8888, ignore but be cognizant of browser unsafe warnings.
 
 ## Notes
-- It you wanted to run Anaconda Navigator, then install X on your EC2 and then use VNC or RDP to connect remotely, and be mindful that your machine is now running more services and your connection will be working harder.
 - For full AWS accounts, SSL can be improved CA's including an AWS ACM public certificate and Route 53 hosted zone.
 - An Elastic IP on the EC2 is useful for allowing an inbound rule such as an RDS instance's VPC.
