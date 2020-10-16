@@ -25,5 +25,5 @@ This script could use many improvements, but I needed it fast, it works, and it'
     2. Custom port 8888
   - Launch the EC2
 2. 💤Wait 10 minutes before attempting to login. You can SSH in fairly soon, but remember that the installation is still running.
-3. 🚀Log in using the EC2 public ipv4 (like https://243.33.2.1:8888 ) not the url ( like my-ec2-amazon.whatever.com  to log in, use https, port 8888, ignore (but be cognizant of) browser unsafe warnings.
+3. 🚀Log in using the EC2 public ipv4 (like https://243.33.2.1:8888 ) not the url ( like my-ec2-amazon.whatever.com  to log in, use https, port 8888, ignore but be cognizant of browser unsafe warnings.
 
