@@ -18,4 +18,4 @@ The script does:
     2. Custom port 8888
   - Launch the EC2
   - Wait 10 minutes before attempting to login
-  - use the ipv2 not url to log in, use https, port 8888, ignore (but be cognizant of) browser unsafe warnings.
+  - use the EC2 public ipv4 (like https://243.33.2.1:8888 ) not the url ( like my-ec2-amazon.whatever.com  to log in, use https, port 8888, ignore (but be cognizant of) browser unsafe warnings.
