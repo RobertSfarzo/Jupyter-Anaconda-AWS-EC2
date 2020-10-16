@@ -14,7 +14,7 @@ This script could use many improvements like error checking, but I needed it fas
 - creates a service 'jupyter' that runs the server. It starts automatically on re/boots. If you stop juptyer server, then you can restart from a console like AWS CLI or SSH; the service can but is not set to restart. You'll see the service file sitting in the home directory (cuz) jupyter.sh
 - runs the Juptyer server from the \lab directory
 
-## 🚀Launch the EC2
+## 🚀Launch the EC2 and Install the Jupyter Server
 1. 🛠️Launch an EC2
   - Upload the script file as User Data Text File
   - Suggest: t2.medium , 15GB EBS
