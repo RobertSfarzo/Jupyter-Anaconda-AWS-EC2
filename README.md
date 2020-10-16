@@ -1,4 +1,4 @@
-# 🪐Jupyter/Anaconda Data Science Machine on an EC2
+# 🪐Install Jupyter Service on an EC2 Server At Launch
 🪐AWS EC2 **Instance User Data At Launch** script.  While building your own EC2 as you wish, use this to install a Jupyter server as a service on an EC2 with a public IPv4 https.
 
 This script installs Anaconda, which installs 🪐Jupyter.  Anaconda is a good package manager for Jupyter.
