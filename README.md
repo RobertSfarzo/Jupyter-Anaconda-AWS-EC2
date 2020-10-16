@@ -1,5 +1,5 @@
 # Jupyter-Anaconda-AWS-EC2
-AWS EC2 launch script.  While building your own EC2 as you wish, use this to install a Jupyter server as a service on an EC2 with a self-signed cert and public IPv4. Includes a mash from various web sources.
+AWS EC2 **Instance User Data At Launch** script.  While building your own EC2 as you wish, use this to install a Jupyter server as a service on an EC2 with a self-signed cert and public IPv4. Includes a mash from various web sources.
 Connect using https://{ec2 ipv4}:8888
 
 The script does:
