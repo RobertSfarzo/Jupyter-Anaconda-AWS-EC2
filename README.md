@@ -8,7 +8,7 @@ It you wanted to run Anaconda Navigator, then install X on your EC2 and then use
 This script could use many improvements, but I needed it fast, it works, and it's creating remote web-based workstations for others who do not have good computers.
 
 
-## 📝The script does:
+## 📝What the script does
 - update o/s
 - install anaconda which has jupyter.  not installing X so no front-end
 - install python modules for mapyleaflet
