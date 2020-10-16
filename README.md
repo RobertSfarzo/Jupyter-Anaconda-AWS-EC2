@@ -8,7 +8,7 @@ It you wanted to run Anaconda Navigator, then install X on your EC2 and then use
 This script could use many improvements, but I needed it fast, it works, and it's creating remote web-based workstations for others who do not have good computers.
 
 
-##📝The script does:
+## 📝The script does:
 - update o/s
 - install anaconda which has jupyter.  not installing X so no front-end
 - install python modules for mapyleaflet
@@ -16,7 +16,7 @@ This script could use many improvements, but I needed it fast, it works, and it'
 - runs the Juptyer server from the \lab directory
 - again, these are self-signed certificates of not too much authority.
 
-##🚀Launch the EC2
+## 🚀Launch the EC2
 1. 🛠️Launch an EC2
   - Upload the script file as User Data Text File
   - Suggest: t2.medium , 15GB EBS
