@@ -24,6 +24,14 @@ This script could use many improvements, but I needed it fast, it works, and it'
   - Launch the EC2
 2. 💤Wait 10 minutes before attempting to login. You can SSH in fairly soon, but remember that the installation is still running.
 3. 🚀Log in using the EC2 public ipv4 (like https://243.33.2.1:8888 ) not the url ( like my-ec2-amazon.whatever.com  to log in, use https, port 8888, ignore but be cognizant of browser unsafe warnings.
+4. 👁️**password** is the initial password.
+   1. when you log in, read the readme.txt file
+   2. from a Jupyter terminal: 
+      1. change your password to a **real password**
+      2. restart the jupyter service
+      3. ignore any warnings
+    3. reload your browser tab
+    4. log in with your new password
 
 ## Notes
 - For full AWS accounts, SSL can be improved CA's including an AWS ACM public certificate and Route 53 hosted zone.
