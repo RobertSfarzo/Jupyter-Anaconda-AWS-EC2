@@ -20,7 +20,7 @@ This script could use many improvements, but I needed it fast, it works, and it'
 1. 🛠️Launch an EC2
   - Upload the script file as User Data Text File
   - Suggest: t2.medium , 15GB EBS
-  - Add 2 inboud rules, limit source to MyIp:
+  - Add 2 inbound rules, limit source to MyIp:
     1. MySQL/Aurora
     2. Custom port 8888
   - Launch the EC2
