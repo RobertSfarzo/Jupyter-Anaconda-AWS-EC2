@@ -1,7 +1,7 @@
 # 🪐Install Jupyter Service on a new EC2
-🪐AWS EC2 **Instance User Data At Launch** script.  While building your own EC2 as you wish, use this to install a Jupyter server as a service on an EC2 with a public IPv4 https.
-
-This script installs Anaconda, which installs 🪐Jupyter.  Anaconda is a good package manager for Jupyter.
+🪐AWS EC2 **Instance User Data At Launch** script.  While building your own EC2 as you wish,  
+[instanceUserDataAtLaunch.sh](https://github.com/RobertSfarzo/Jupyter-Anaconda-AWS-EC2/blob/main/instanceUserDataAtLaunch.sh)
+to install a Jupyter server as a service on an EC2 with a public IPv4 https. This script installs Anaconda, which installs 🪐Jupyter.  Anaconda is a good package manager for Jupyter.
 
 This script could use many improvements, but I needed it fast, it works, and it's creating remote web-based workstations for others who do not have good computers.
 
@@ -9,7 +9,7 @@ This script could use many improvements, but I needed it fast, it works, and it'
 ## 📝What the script does
 - update o/s
 - install anaconda which has jupyter.  not installing X so no front-end
-- install python modules for mapyleaflet
+- install python, node js, pip, python modules for mapyleaflet, ipyparallel
 - creates a self-signed ssl certificate for https
 - creates a service 'jupyter' that runs the server. It starts automatically on re/boots. If you stop juptyer server, then you can restart from a console like AWS CLI or SSH; the service can but is not set to restart. You'll see the service file sitting in the home directory (cuz) jupyter.sh
 - runs the Juptyer server from the \lab directory
